@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arquitectura Moderna</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+	<link rel="icon" type="image/png" sizes="32x32" href="images/logo.jpg">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/logo.jpg">
+	<link rel="icon" sizes="192x192" href="images/logo.jpg">
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="images/logo.jpg" alt="Logo">
+            <div class="logo">Kön Arquitectura</div>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio" class="hero">
+        <h1 class="hero-text">Diseño y Construcción de Espacios Únicos</h1>
+        <p class="hero-text">Transformamos tus ideas en realidades arquitectónicas.</p>
+        <a href="#proyectos" class="btn">Ver Proyectos</a>
+    </section>
+
+    <section class="persuasive-text">
+        <h2>¿Por qué elegirnos?</h2>
+        <p>En Kön Arquitectura, nos especializamos en crear espacios que no solo son funcionales, sino también inspiradores. Nuestro equipo de expertos trabaja contigo para transformar tus sueños en realidad. Desde diseños residenciales hasta proyectos urbanos, estamos comprometidos con la excelencia y la innovación. <b>¡Contáctanos hoy y comienza a construir el futuro que siempre has deseado!</b></p>
+    </section>
+
+    <section id="proyectos" class="proyectos">
+        <h2>Nuestros Proyectos</h2>
+        <div class="proyectos-grid">
+            <div class="proyecto">
+                <img src="images/obra7.jpg" alt="Proyecto 1" class="proyecto-img">
+                <h3>Proyecto Residencial</h3>
+                <p>Diseño moderno para viviendas familiares.</p>
+            </div>
+            <div class="proyecto">
+                <img src="images/casa10.jpg" alt="Proyecto 2" class="proyecto-img">
+                <h3>Proyecto Privado</h3>
+                <p>Espacios privados funcionales y atractivos.</p>
+            </div>
+            <div class="proyecto">
+                <img src="images/casa1.jpg" alt="Proyecto 3" class="proyecto-img">
+                <h3>Proyecto Urbano</h3>
+                <p>Planificación y diseño de áreas urbanas.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="galeria" class="galeria">
+        <h2>Galería de Fotos</h2>
+        <div class="galeria-container">
+            <div class="galeria-grid">
+                <img src="images/casa2.jpg" alt="Foto 1" class="galeria-img">
+                <img src="images/casa6.jpg" alt="Foto 2" class="galeria-img">
+                <img src="images/casa12.jpg" alt="Foto 3" class="galeria-img">
+                <img src="images/obra17.jpg" alt="Foto 4" class="galeria-img">
+				<img src="images/obra6.jpg" alt="Foto 5" class="galeria-img">
+                <img src="images/obra9.jpg" alt="Foto 6" class="galeria-img">
+                <img src="images/obra12.jpg" alt="Foto 7" class="galeria-img">
+                <img src="images/obra15.jpg" alt="Foto 8" class="galeria-img">
+				<img src="images/casa4.jpg" alt="Foto 9" class="galeria-img">
+                <img src="images/casa8.jpg" alt="Foto 10" class="galeria-img">
+                <img src="images/obra4.jpg" alt="Foto 11" class="galeria-img">
+                <img src="images/obra7.jpg" alt="Foto 12" class="galeria-img">
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="contacto">
+    <h2>Contacto</h2>
+    <form id="formulario-contacto">
+        <input type="text" id="nombre" name="nombre" placeholder="Nombre" required>
+        <input type="email" id="email" name="email" placeholder="Correo Electrónico" required>
+        <input type="tel" id="phone" name="phone" placeholder="Celular" required>
+        <textarea id="mensaje" name="mensaje" placeholder="Mensaje" rows="7" required></textarea>
+        <button type="submit">Enviar</button>
+    </form>
+</section>
+
+
+    <footer>
+        <p>&copy; Copyright 2025. Designed by Leimbek Web Studio. Todos los derechos reservados.</p>
+    </footer>
+
+    
+
+	
+	<!-- Modal para imágenes -->
+	<div id="modal" class="modal">
+		<span class="close">&times;</span>
+		<img class="modal-content" id="modal-img">
+	</div>
+	
+	<script src="script.js" defer></script>
+
+</body>
+</html>
